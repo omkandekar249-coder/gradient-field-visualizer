@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from .gradient import compute_gradient
 
-def plot_gradient_field(f, x_range, y_range, density=20):
+def plot_gradient_field(f, x_range, y_range, density=25):
     x = np.linspace(*x_range, density)
     y = np.linspace(*y_range, density)
     X, Y = np.meshgrid(x, y)
