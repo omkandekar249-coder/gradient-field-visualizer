@@ -16,12 +16,12 @@ To Run:
   python main.py
   
 Example input:
-  f(x, y) = x**2 + y**2 - 2*x*y
-  xmin = -5
-  xmax = 5
-  ymin = -5
-  ymax = 5
-  density = 30
+- f(x, y) = x**2 + y**2 - 2*x*y
+- xmin = -5
+- xmax = 5
+- ymin = -5
+- ymax = 5
+- density = 30
 
 Libraries Used: 
 - Numpy
